@@ -1,6 +1,6 @@
 
 
-#Game Of Throne Trivia Game
+# h1 Game Of Throne Trivia Game
 
 1)Click the "Play If You Dare!" button to begin
 2)Select ONE answer for each questions
