@@ -1,0 +1,54 @@
+    
+.wrapper {
+	display: none;
+}
+
+body { 
+    background: url(../images/GOT.JPG)
+}
+
+div {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.wrapper {
+    text-align: center;
+    
+}
+
+.box {
+    background: black;
+    width: 50%;
+    margin: 00 auto;
+}
+
+.message {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#endgame {
+    text-align: center;
+}
+
+.startGame {
+    height: 150px;
+    width: 300px;
+    margin-top: 20%;
+    margin-left: 40%;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#question {
+    font-size: 500px;
+}

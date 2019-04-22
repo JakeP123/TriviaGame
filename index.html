@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Game Of Thrones Trivia</title>
+</head>
+<body>
+
+<!-- this button is created to start the game -->
+	<button class='startGame'>Play If You Dare!!</button>
+<!-- a wrapper div holds all the items that will be displayed after the startGame button is clicked -->
+	<div class='wrapper'>
+
+        <h1 class='header'>Game Of Thrones Trivia!!</h1>
+        <br>
+       <h2 class='gamble'> Gamble With Your Head!!</h2>
+       <br>
+
+      <div class='box'>
+<!-- div to hold countdown timer -->
+		<div class='timer' id='timeLeft'></div>
+<!-- div to hold all the questions -->
+		<div class='form' id='questions-container'></div>
+
+    <br>
+    
+<!-- Done Button -->
+    <button id='doneButton'>Done</button>
+    <br>
+</div>
+</div>
+<br>
+<div id='endgame'>
+<!-- Message After Timer Runs Out -->
+    <div class='message' id='messageDiv'></div>
+    
+    <br>
+<!-- Results Display -->
+	<div class='results'></div>
+</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type='text/javascript' src='assets/javascript/app.js'></script>	
+</body>
+</html>
